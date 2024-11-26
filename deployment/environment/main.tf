@@ -1,5 +1,5 @@
 module "vpc" {
-  source = ""
+  source = "../../linuxtips-curso-containers-aws-modules/vpc"
 
   project_name = var.project_name
 
