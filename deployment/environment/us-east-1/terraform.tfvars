@@ -1,4 +1,4 @@
-region = "us-east1"
+region = "us-east-1"
 
 project_name = "linuxtips-multiregion"
 
