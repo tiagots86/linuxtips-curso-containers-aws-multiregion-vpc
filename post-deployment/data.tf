@@ -12,7 +12,6 @@ data "aws_caller_identity" "current" {
 
 }
 
-data "aws_caller_identity" "current" {
+data "aws_caller_identity" "peer" {
   provider = aws.peer
-
 }

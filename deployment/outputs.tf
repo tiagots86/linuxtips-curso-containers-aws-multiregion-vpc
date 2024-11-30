@@ -2,6 +2,7 @@ output "vpc_ssm" {
   value = aws_ssm_parameter.vpc.name
 }
 
+
 output "public_subnets_ssm" {
   value = aws_ssm_parameter.public_subnets[*].name
 }
